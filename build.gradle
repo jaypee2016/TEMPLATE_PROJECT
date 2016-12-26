@@ -1,0 +1,21 @@
+apply plugin: 'java' 
+apply plugin: 'war'
+apply from: 'gretty.plugin'
+
+gretty {
+	// Default 'jetty9'
+	// Servlet container to be used in appXXX tasks.
+	// Possible values are 'jetty7', 'jetty8', 'jetty9',
+	// 'jetty93' (jdk 8 only), 'tomcat7', 'tomcat8'.
+
+	servletContainer 'tomcat8'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  providedCompile 'javax.servlet:servlet-api:2.5'
+  runtime 'javax.servlet:jstl:1.1.2'
+}
