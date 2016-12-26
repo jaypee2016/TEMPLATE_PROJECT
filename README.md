@@ -7,10 +7,10 @@ Basic Web app built and executed by Gradle (Eclipse) and running on Gretty
 
 * Now you should see the Gradle telling you the URL of my awesome website:
 
-> :appRun
-> 15:59:13 INFO  Tomcat 8.0.33 started and listening on port 8080
-> 15:59:13 INFO  TEMPLATE_PROJECT runs at:
-> 15:59:13 INFO    http://localhost:8080/TEMPLATE_PROJECT
+> :appRun \n
+> 15:59:13 INFO  Tomcat 8.0.33 started and listening on port 8080 \n
+> 15:59:13 INFO  TEMPLATE_PROJECT runs at: \n
+> 15:59:13 INFO    http://localhost:8080/TEMPLATE_PROJECT \n
 
 * If you open the browser and go to this URL you will see the projects root directory. Just click the login.html file. Else follow the link: <a href>http://localhost:8080/TEMPLATE_PROJECT</a>
 
